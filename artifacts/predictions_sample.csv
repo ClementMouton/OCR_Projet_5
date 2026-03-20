@@ -1,0 +1,51 @@
+age,genre,revenu_mensuel,statut_marital,departement,poste,nombre_experiences_precedentes,nombre_heures_travailless,annee_experience_totale,annees_dans_l_entreprise,annees_dans_le_poste_actuel,satisfaction_employee_environnement,note_evaluation_precedente,niveau_hierarchique_poste,satisfaction_employee_nature_travail,satisfaction_employee_equipe,satisfaction_employee_equilibre_pro_perso,note_evaluation_actuelle,heure_supplementaires,augementation_salaire_precedente,nombre_participation_pee,nb_formations_suivies,nombre_employee_sous_responsabilite,distance_domicile_travail,niveau_education,domaine_etude,ayant_enfants,frequence_deplacement,annees_depuis_la_derniere_promotion,annes_sous_responsable_actuel,y_true,proba,pred_0_5,pred_best_threshold
+24,F,2033,Marié(e),Commercial,Représentant Commercial,1,80,1,1,0,4,3,1,2,3,3,3,Non,13 %,1,2,1,13,2,Infra & Cloud,Y,Aucun,0,0,0,0.2632063831547858,0,0
+44,F,2011,Marié(e),Consulting,Assistant de Direction,1,80,10,10,5,1,4,1,4,4,3,3,Non,13 %,1,5,1,2,1,Infra & Cloud,Y,Occasionnel,7,7,0,0.022731345509869976,0,0
+31,M,11557,Divorcé(e),Commercial,Senior Manager,9,80,10,5,4,3,2,3,4,3,2,4,Non,21 %,1,3,1,7,3,Infra & Cloud,Y,Occasionnel,0,1,0,0.30304641806910576,0,0
+44,M,19190,Divorcé(e),Consulting,Senior Manager,1,80,26,25,9,3,4,5,1,4,2,3,Non,14 %,2,4,1,4,2,Infra & Cloud,Y,Occasionnel,14,13,0,0.024812395740347,0,0
+36,M,3388,Marié(e),Consulting,Assistant de Direction,0,80,2,1,0,4,2,1,3,1,2,3,Oui,17 %,1,0,1,9,3,Transformation Digitale,Y,Occasionnel,0,0,1,0.6946374471689576,1,0
+40,F,7945,Célibataire,Consulting,Tech Lead,6,80,18,4,2,3,3,3,4,4,2,3,Oui,15 %,0,2,1,16,3,Infra & Cloud,Y,Occasionnel,3,3,0,0.6744043417986966,1,0
+52,M,7969,Marié(e),Consulting,Tech Lead,2,80,28,5,4,4,2,3,3,3,3,3,Oui,14 %,0,4,1,3,3,Transformation Digitale,Y,Occasionnel,0,4,0,0.030782154517611546,0,0
+43,F,19392,Marié(e),Consulting,Senior Manager,7,80,21,16,12,1,2,5,3,4,3,3,Non,13 %,0,2,1,6,3,Transformation Digitale,Y,Occasionnel,6,14,0,0.10831169542565534,0,0
+35,M,6883,Marié(e),Consulting,Tech Lead,2,80,17,7,7,4,3,2,3,2,3,3,Non,16 %,1,3,1,27,4,Infra & Cloud,Y,Occasionnel,0,7,0,0.0396979850836571,0,0
+18,F,1514,Célibataire,Consulting,Assistant de Direction,1,80,0,0,0,2,3,1,3,3,1,3,Non,16 %,0,4,1,14,3,Transformation Digitale,Y,Aucun,0,0,0,0.39939584001170686,0,0
+34,F,2929,Marié(e),Consulting,Assistant de Direction,1,80,10,10,9,2,2,1,4,2,3,3,Non,12 %,0,3,1,19,3,Infra & Cloud,Y,Occasionnel,8,7,0,0.20330867846430564,0,0
+54,F,10686,Marié(e),Commercial,Cadre Commercial,6,80,13,9,4,3,2,3,3,2,3,3,Non,11 %,1,4,1,2,4,Infra & Cloud,Y,Occasionnel,7,0,0,0.5624088189965082,1,0
+35,F,4425,Célibataire,Consulting,Consultant,5,80,10,6,2,2,3,2,2,4,3,3,Non,11 %,0,5,1,2,3,Transformation Digitale,Y,Frequent,1,2,0,0.8331978043298867,1,1
+31,F,5468,Marié(e),Commercial,Cadre Commercial,1,80,13,12,7,1,2,2,4,1,3,3,Non,14 %,2,3,1,29,4,Marketing,Y,Occasionnel,5,7,0,0.3437272951675069,0,0
+51,F,2838,Célibataire,Consulting,Consultant,0,80,8,7,0,2,2,1,3,2,2,3,Non,14 %,0,6,1,6,2,Transformation Digitale,Y,Frequent,7,7,0,0.5594508549658913,1,0
+27,F,2478,Célibataire,Consulting,Assistant de Direction,1,80,4,4,3,3,3,1,2,2,2,3,Oui,12 %,0,2,1,5,3,Infra & Cloud,Y,Occasionnel,1,2,0,0.7427096482326065,1,0
+41,M,8392,Marié(e),Commercial,Cadre Commercial,1,80,10,10,7,2,4,3,1,3,3,3,Non,16 %,1,2,1,1,3,Marketing,Y,Occasionnel,0,7,0,0.19244063566199288,0,0
+38,M,5249,Marié(e),Commercial,Cadre Commercial,3,80,13,8,7,4,2,2,4,4,3,3,Non,18 %,1,0,1,2,2,Infra & Cloud,Y,Aucun,7,5,0,0.0554971159577277,0,0
+30,F,6877,Célibataire,Consulting,Tech Lead,5,80,12,0,0,3,2,2,4,2,2,4,Oui,24 %,0,4,1,2,3,Transformation Digitale,Y,Occasionnel,0,0,0,0.5657708271610689,1,0
+35,F,2977,Marié(e),Consulting,Assistant de Direction,1,80,4,4,3,3,1,1,4,4,3,3,Non,12 %,1,5,1,1,4,Infra & Cloud,Y,Occasionnel,1,1,0,0.05688401185478256,0,0
+29,F,2800,Divorcé(e),Commercial,Représentant Commercial,6,80,5,3,2,2,2,1,3,3,3,3,Oui,19 %,3,3,1,1,3,Transformation Digitale,Y,Occasionnel,0,2,1,0.6600003258836074,1,0
+31,M,6179,Marié(e),Consulting,Tech Lead,1,80,10,10,2,4,3,2,3,4,2,3,Oui,15 %,2,3,1,22,4,Transformation Digitale,Y,Occasionnel,6,7,1,0.4460665607552202,0,0
+45,F,4477,Marié(e),Consulting,Assistant de Direction,4,80,7,3,2,1,3,1,3,3,2,3,Oui,19 %,1,2,1,7,3,Transformation Digitale,Y,Occasionnel,0,2,0,0.3002156182109964,0,0
+40,M,4069,Divorcé(e),Consulting,Manager,3,80,8,2,2,4,3,2,4,3,3,3,Oui,18 %,0,2,1,8,2,Infra & Cloud,Y,Aucun,2,2,0,0.07164076097283982,0,0
+28,F,3660,Célibataire,Consulting,Assistant de Direction,3,80,10,8,7,3,3,2,3,4,4,3,Non,13 %,0,4,1,10,3,Autre,Y,Occasionnel,1,7,0,0.03668489032898382,0,0
+25,F,4487,Célibataire,Commercial,Cadre Commercial,1,80,5,5,4,2,2,2,4,2,3,3,Oui,11 %,0,3,1,4,2,Infra & Cloud,Y,Occasionnel,1,3,0,0.8821231851752065,1,1
+42,M,2766,Divorcé(e),Consulting,Consultant,8,80,7,5,3,2,3,1,2,2,2,4,Non,22 %,3,6,1,12,3,Transformation Digitale,Y,Occasionnel,0,4,0,0.57974209585008,1,0
+51,M,10650,Célibataire,Consulting,Tech Lead,2,80,18,4,2,1,1,3,4,4,3,3,Non,15 %,0,2,1,8,4,Infra & Cloud,Y,Frequent,0,3,1,0.3648244971937141,0,0
+35,M,7823,Divorcé(e),Commercial,Cadre Commercial,6,80,12,10,9,4,3,3,4,2,3,3,Non,13 %,1,2,1,3,4,Infra & Cloud,Y,Occasionnel,0,8,0,0.04444952766970134,0,0
+41,F,19545,Marié(e),Consulting,Directeur Technique,1,80,23,22,15,2,3,5,3,4,3,3,Non,12 %,0,0,1,12,3,Entrepreunariat,Y,Occasionnel,15,8,1,0.14819175294715503,0,0
+35,M,5208,Marié(e),Consulting,Assistant de Direction,1,80,16,16,15,2,4,2,1,4,3,3,Non,11 %,0,2,1,18,5,Infra & Cloud,Y,Occasionnel,1,10,0,0.0636506424448937,0,0
+48,M,2559,Célibataire,Consulting,Consultant,5,80,7,1,0,4,4,1,2,3,2,3,Non,11 %,0,4,1,2,2,Entrepreunariat,Y,Occasionnel,0,0,0,0.6310795683353282,1,0
+45,F,2274,Célibataire,Consulting,Assistant de Direction,1,80,1,1,0,2,2,1,3,4,3,3,Non,14 %,0,3,1,2,3,Infra & Cloud,Y,Occasionnel,0,0,0,0.1233553637440691,0,0
+49,M,13120,Marié(e),Commercial,Cadre Commercial,6,80,22,9,8,4,2,4,2,2,3,3,Non,17 %,1,3,1,8,4,Entrepreunariat,Y,Occasionnel,2,3,0,0.32987793573897245,0,0
+34,M,2008,Divorcé(e),Consulting,Consultant,1,80,1,1,0,2,3,1,2,2,3,3,Non,14 %,2,3,1,10,3,Infra & Cloud,Y,Occasionnel,1,0,0,0.3558468244242831,0,0
+33,M,3348,Célibataire,Consulting,Assistant de Direction,1,80,10,10,8,1,3,1,1,1,3,3,Oui,11 %,0,3,1,3,3,Infra & Cloud,Y,Frequent,9,7,1,0.969488891093172,1,1
+37,M,13664,Célibataire,Consulting,Directeur Technique,4,80,16,5,2,1,3,3,3,1,4,3,Non,13 %,0,3,1,7,4,Transformation Digitale,Y,Occasionnel,0,2,0,0.10308913050341197,0,0
+27,M,4105,Célibataire,Commercial,Cadre Commercial,1,80,7,7,7,4,3,2,4,1,3,3,Non,14 %,0,5,1,9,3,Marketing,Y,Occasionnel,0,7,0,0.08472962979066956,0,0
+30,M,3491,Divorcé(e),Consulting,Consultant,1,80,10,10,7,3,3,2,3,1,2,3,Non,13 %,3,4,1,7,4,Infra & Cloud,Y,Occasionnel,8,9,0,0.2632852415077863,0,0
+31,M,2321,Célibataire,Consulting,Assistant de Direction,0,80,4,3,2,3,2,1,1,1,3,4,Oui,22 %,0,0,1,9,2,Transformation Digitale,Y,Aucun,1,2,1,0.8684606715163365,1,1
+51,F,13734,Célibataire,Consulting,Manager,3,80,21,7,7,4,3,4,2,3,3,3,Non,18 %,0,6,1,3,3,Transformation Digitale,Y,Occasionnel,1,0,0,0.02617194365591972,0,0
+24,M,3597,Célibataire,Consulting,Consultant,8,80,6,4,3,4,3,1,2,4,3,4,Non,22 %,0,2,1,24,3,Transformation Digitale,Y,Occasionnel,1,2,0,0.9010326523637026,1,1
+43,F,16064,Marié(e),Commercial,Senior Manager,5,80,22,17,13,4,3,4,4,3,3,4,Oui,22 %,1,3,1,16,3,Marketing,Y,Occasionnel,1,9,0,0.1696890666932123,0,0
+56,F,5380,Marié(e),Commercial,Cadre Commercial,4,80,6,0,0,4,2,2,1,3,3,3,Non,16 %,1,3,1,11,5,Marketing,Y,Occasionnel,0,0,0,0.4279204402398394,0,0
+30,M,2141,Marié(e),Consulting,Assistant de Direction,1,80,6,6,4,2,2,1,2,2,2,3,Non,12 %,1,3,1,7,3,Transformation Digitale,Y,Occasionnel,1,1,0,0.4035004417485073,0,0
+34,M,9713,Marié(e),Commercial,Cadre Commercial,2,80,9,5,3,3,3,3,4,4,3,3,Oui,13 %,3,3,1,4,3,Infra & Cloud,Y,Occasionnel,1,0,0,0.30332572584077555,0,0
+23,F,3295,Célibataire,Consulting,Consultant,1,80,3,3,2,3,3,1,2,3,1,3,Non,13 %,0,3,1,4,1,Transformation Digitale,Y,Occasionnel,1,2,0,0.6238999497393617,1,0
+35,M,4930,Célibataire,Consulting,Assistant de Direction,0,80,6,5,4,1,2,1,4,3,4,3,Oui,14 %,0,2,1,2,4,Transformation Digitale,Y,Frequent,1,4,0,0.48658391019581443,0,0
+39,F,2232,Divorcé(e),Consulting,Consultant,7,80,7,3,2,3,3,1,3,3,3,3,Non,14 %,3,1,1,1,4,Transformation Digitale,Y,Occasionnel,1,2,0,0.11816166999110866,0,0
+28,M,5253,Célibataire,Commercial,Cadre Commercial,1,80,7,7,5,2,3,2,4,4,3,3,Non,16 %,0,1,1,9,4,Infra & Cloud,Y,Occasionnel,0,7,0,0.26076567414104895,0,0
