@@ -28,6 +28,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      
+      - name: Debug installed versions
+        run: |
+          python -m pip show scikit-learn
+          python -c "import sklearn; print('sklearn version =', sklearn.__version__)"
+          python -m pip freeze | grep -i scikit
 
       - name: Lancer les tests
         run: |
