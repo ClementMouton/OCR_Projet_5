@@ -10,3 +10,4 @@ pytest-cov==7.0.0
 httpx==0.28.1
 SQLAlchemy==2.0.36
 psycopg2-binary==2.9.10
+huggingface_hub==1.7.1
