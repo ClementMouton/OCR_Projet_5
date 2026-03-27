@@ -8,3 +8,5 @@ joblib==1.4.2
 pytest==9.0.2
 pytest-cov==7.0.0
 httpx==0.28.1
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.10
