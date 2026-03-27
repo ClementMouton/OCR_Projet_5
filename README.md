@@ -111,6 +111,17 @@ attrition_pipeline.joblib
 
 model_metadata.json
 
+## Base de données PostgreSQL
+
+Le projet utilise PostgreSQL pour garantir la traçabilité des prédictions.
+
+Les scripts SQL sont disponibles dans le dossier `sql/` :
+- `create_tables.sql` : création des tables
+- `sample_queries.sql` : exemples d'interrogation
+
+La documentation du schéma est disponible dans :
+- `docs/database_schema.md`
+
 ⚠️ Limitations
 
 dépendance à la qualité des données
