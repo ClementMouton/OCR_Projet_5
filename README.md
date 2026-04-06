@@ -111,6 +111,14 @@ attrition_pipeline.joblib
 
 model_metadata.json
 
+## Tests
+
+Les tests sont exécutés avec pytest.
+
+Commande :
+
+pytest --cov=app --cov-report=term
+
 ## Base de données PostgreSQL
 
 Le projet utilise PostgreSQL pour garantir la traçabilité des prédictions.
