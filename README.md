@@ -130,6 +130,14 @@ Les scripts SQL sont disponibles dans le dossier `sql/` :
 La documentation du schéma est disponible dans :
 - `docs/database_schema.md`
 
+## Démo en ligne
+
+Une interface utilisateur est disponible via Hugging Face Spaces :
+
+👉 https://huggingface.co/spaces/ClementMouton/attrition-predictor
+
+Cette interface permet de tester le modèle sans installation locale.
+
 ⚠️ Limitations
 
 dépendance à la qualité des données
