@@ -7,10 +7,8 @@ from app.db.queries import insert_prediction
 from app.model.load_model import model
 
 
-# 🔗 Repo Hugging Face
 HF_REPO_ID = "ClementMouton/employee-attrition-model"
 
-# 📥 Récupération du metadata depuis HF
 METADATA_PATH = hf_hub_download(
     repo_id=HF_REPO_ID,
     filename="model_metadata.json"
@@ -23,21 +21,20 @@ THRESHOLD = model_metadata["threshold"]
 
 
 def predict(data: dict) -> dict:
-    # Transformation en DataFrame
     df = pd.DataFrame([data])
 
-    # Prédiction
     proba = model.predict_proba(df)[0, 1]
     pred = int(proba >= THRESHOLD)
 
-    # 🔥 Enregistrement en base PostgreSQL
-    insert_prediction(
-        input_data=data,
-        prediction=pred,
-        probability=float(proba)
-    )
+    try:
+        insert_prediction(
+            input_data=data,
+            prediction=pred,
+            probability=float(proba)
+        )
+    except Exception as e:
+        print(f"Erreur lors de l'enregistrement en base : {e}")
 
-    # Retour API
     return {
         "prediction": pred,
         "probability": float(proba)
