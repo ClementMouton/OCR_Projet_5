@@ -10,7 +10,15 @@ def test_root():
     assert response.json() == {"message": "API OK"}
 
 
-def test_predict_success():
+def test_predict_success(monkeypatch):
+    def fake_insert_prediction(input_data, prediction, probability):
+        return None
+
+    monkeypatch.setattr(
+        "app.model.predict.insert_prediction",
+        fake_insert_prediction
+    )
+
     payload = {
         "age": 31,
         "genre": "M",
@@ -49,7 +57,6 @@ def test_predict_success():
     assert response.status_code == 200
 
     data = response.json()
-
     assert "prediction" in data
     assert "probability" in data
     assert isinstance(data["prediction"], int)
@@ -58,7 +65,7 @@ def test_predict_success():
 
 def test_predict_missing_field():
     payload = {
-        "age": 31  # volontairement incomplet
+        "age": 31
     }
 
     response = client.post("/predict", json=payload)
