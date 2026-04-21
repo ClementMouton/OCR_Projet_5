@@ -1,15 +1,14 @@
+import numpy as np
 import pytest
 
 from app.model.predict import predict
 
 
-# 🔹 Mock du modèle
 class FakeModel:
     def predict_proba(self, X):
-        return [[0.2, 0.8]]  # proba classe 1 = 0.8
+        return np.array([[0.2, 0.8]])  # proba classe 1 = 0.8
 
 
-# 🔹 Mock DB
 def fake_insert_prediction(*args, **kwargs):
     return None
 
@@ -51,10 +50,7 @@ def sample_data():
 
 
 def test_predict_returns_valid_output(monkeypatch, sample_data):
-    # Mock du modèle
     monkeypatch.setattr("app.model.predict.model", FakeModel())
-
-    # Mock DB
     monkeypatch.setattr(
         "app.model.predict.insert_prediction",
         fake_insert_prediction
@@ -66,12 +62,14 @@ def test_predict_returns_valid_output(monkeypatch, sample_data):
     assert "probability" in result
     assert isinstance(result["prediction"], int)
     assert isinstance(result["probability"], float)
+    assert result["prediction"] == 1
+    assert result["probability"] == 0.8
 
 
 def test_predict_threshold_logic(monkeypatch, sample_data):
     class LowProbaModel:
         def predict_proba(self, X):
-            return [[0.9, 0.1]]  # faible proba
+            return np.array([[0.9, 0.1]])  # faible proba pour classe 1
 
     monkeypatch.setattr("app.model.predict.model", LowProbaModel())
     monkeypatch.setattr(
@@ -81,5 +79,5 @@ def test_predict_threshold_logic(monkeypatch, sample_data):
 
     result = predict(sample_data)
 
-    assert result["prediction"] in [0, 1]
     assert result["prediction"] == 0
+    assert result["probability"] == 0.1
