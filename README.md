@@ -195,7 +195,7 @@ Le modèle et ses métadonnées sont stockés sur Hugging Face :
 
 ## 🌐 Démo en ligne
 
-👉 https://huggingface.co/spaces/ClementMouton/attrition-predictor
+👉 [https://huggingface.co/spaces/ClementMouton/attrition-predictor](https://huggingface.co/spaces/ClementMouton/attrition_predictor)
 
 Cette interface permet de tester le modèle sans installation locale.
 
@@ -324,7 +324,7 @@ SELECT * FROM predictions;
 ### 8. Tester la démo en ligne
 
 👉 Hugging Face Space :
-https://huggingface.co/spaces/ClementMouton/attrition-predictor
+[https://huggingface.co/spaces/ClementMouton/attrition-predictor](https://huggingface.co/spaces/ClementMouton/attrition_predictor)
 
 ---
 
